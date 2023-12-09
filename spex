@@ -1,0 +1,11 @@
+#!/bin/bash
+
+find . -type f \( -name "*.flac" -o -name "*.mp3" -o -name "*.wav" \) -print0 |
+while IFS= read -r -d '' file; do
+  echo "Generating spectrogram for $file"
+
+  dir=$(dirname "$file")
+  mkdir -p "$dir/spectrograms"
+
+  sox "$file" -n remix 1 spectrogram -t "$(basename "$file")" -x 1000 -o "$dir/spectrograms/$(basename "$file").png"
+done
