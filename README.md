@@ -3,10 +3,10 @@ Simple script for creating spectrograms from flac files
 
 ## Requirements
 Sox:
-  Windows: [http://sox.sourceforge.net/](http://sox.sourceforge.net/)
-  Linux(deb): `sudo apt-get -y install sox`
-  Linux(arch): `paru -S sox`
-  Linux(fedora): `sudo dnf -y install sox`
+  - Windows: [http://sox.sourceforge.net/](http://sox.sourceforge.net/)
+  - Linux(deb): `sudo apt-get -y install sox`
+  - Linux(arch): `paru -S sox`
+  - Linux(fedora): `sudo dnf -y install sox`
 
 ## Windows
 - Download and install [SoX](http://sox.sourceforge.net/)
