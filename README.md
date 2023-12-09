@@ -21,3 +21,6 @@ Sox:
 - We make the script executable so we can run it: `chmod +x spex`
 - Now we move it to the local bin directory so you can call it from wherever you need to: `sudo cp spsox /usr/local/bin/`
 - That's it, enjoy!
+
+## Contribute
+Join me on [Discord](https://discord.gg/UW8WEwjp)
