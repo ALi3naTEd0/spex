@@ -19,7 +19,7 @@ Sox:
 - Open a terminal and type or paste the following: `git clone https://github.com/ALi3naTEd0/spex.git`
 - Navigate into the directory: `cd spex`
 - We make the script executable so we can run it: `chmod +x spex`
-- Now we move it to the local bin directory so you can call it from wherever you need to: `sudo cp spsox /usr/local/bin/`
+- Now we move it to the local bin directory so you can call it from wherever you need to: `sudo cp spex /usr/local/bin/`
 - That's it, enjoy!
 
 ## Contribute
